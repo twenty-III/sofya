@@ -2,6 +2,8 @@
 
 A lightweight, purely vanilla Python autograd engine and neural network library built completely from scratch. 
 
+![Our fav spongebob](cover.png)
+
 No PyTorch. No TensorFlow. Not even NumPy. Just pure math, standard Python features, and a lot of chain rule calculus.
 
 ## 🧠 What is this?
@@ -18,6 +20,8 @@ While modern frameworks use highly optimized C++ tensor operations, this engine 
 
 ## 🚀 The Sine Wave Sanity Check
 To prove the engine's capability to learn non-linear continuous functions, the network was trained to approximate a sine wave. 
+![Actual sine wave graph](actual_sine_wave.png)
+![Predicted sine wave graph](pred_sine_wave.png)
 
 By utilizing **Tanh** activations to prevent the "Dying ReLU" problem, implementing learning rate decay, and ensuring an even distribution of dataset points, the network successfully learned the curves using a standard Gradient Descent optimization loop.
 
