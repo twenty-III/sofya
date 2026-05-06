@@ -1,4 +1,4 @@
-# [Sofya's Brain & Heart]
+# Sofya's Brain & Heart
 
 A lightweight, purely vanilla Python autograd engine and neural network library built completely from scratch. 
 
