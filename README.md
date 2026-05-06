@@ -1,8 +1,10 @@
 # Sofya's Brain & Heart
 
-A lightweight, purely vanilla Python autograd engine and neural network library built completely from scratch. 
+A lightweight, purely vanilla Python autograd engine and neural network library built completely from scratch.
 
-![Our fav spongebob](cover.jpg)
+<p align="center">
+  <img src="cover.jpg" alt="Sofya Brain & Heart Cover" width="800">
+</p>
 
 No PyTorch. No TensorFlow. Not even NumPy. Just pure math, standard Python features, and a lot of chain rule calculus.
 
