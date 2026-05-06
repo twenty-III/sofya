@@ -21,11 +21,14 @@ While modern frameworks use highly optimized C++ tensor operations, this engine 
 ## 🚀 The Sine Wave Sanity Check
 To prove the engine's capability to learn non-linear continuous functions, the network was trained to approximate a sine wave. 
 
-
-![Actual sine wave graph](actual_sine_wave.png)
-
-
-![Predicted sine wave graph](pred_sine_wave.png)
+<p align="center">
+  <img src="actual_sine_wave.png" alt="Actual sine wave graph" width="45%">
+  &nbsp; &nbsp; &nbsp;
+  <img src="pred_sine_wave.png" alt="Predicted sine wave graph" width="45%">
+</p>
+<p align="center">
+  <em>Left: Target Sine Wave | Right: Model Prediction using Tanh activations</em>
+</p>
 
 By utilizing **Tanh** activations to prevent the "Dying ReLU" problem, implementing learning rate decay, and ensuring an even distribution of dataset points, the network successfully learned the curves using a standard Gradient Descent optimization loop.
 
