@@ -34,7 +34,5 @@ To prove the engine's capability to learn non-linear continuous functions, the n
 
 By utilizing **Tanh** activations to prevent the "Dying ReLU" problem, implementing learning rate decay, and ensuring an even distribution of dataset points, the network successfully learned the curves using a standard Gradient Descent optimization loop.
 
-*(Consider adding one of the screenshots of your perfectly fitted sine wave curve right here!)*
-
 ## 🛠️ Why build this?
 Because understanding the vanishing gradient problem, the math behind piece-wise linear approximations, and the sheer overhead of Python object creation is a rite of passage.
